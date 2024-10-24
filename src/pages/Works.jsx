@@ -13,7 +13,7 @@ const Works = () => {
         Latest Works
       </h2>
       <ShowWorkL bracket={"Appointment Booking"} description={"A hospital management web app streamlines patient records, appointments, billing, and staff workflows to ensure efficient healthcare delivery and seamless administration."} image={Doctor} link={"https://doctor-management-system-frontend.onrender.com/"} name={"Doctor Management System"}/>
-      <ShowWorkR bracket={"Offline Password Managing"} description={"An offline password manager securely stores and organizes passwords locally on your device, ensuring easy access and enhanced security without internet dependency."} image={Password} link={""} name={"Password Manager"}/>
+      <ShowWorkR bracket={"Offline Password Managing"} description={"An offline password manager securely stores and organizes passwords locally on your device, ensuring easy access and enhanced security without internet dependency."} image={Password} link={"https://passop-xxzh.onrender.com"} name={"Password Manager"}/>
       <ShowWorkL bracket={"Job Application Platform"} description={"A job portal web app connects job seekers with employers, enabling efficient job searches, applications, and candidate management in one platform."} image={job} link={""} name={"Job Portal"}/>
       <ShowWorkR bracket={"Portfolio of client"} description={"A client portfolio web app showcases a collection of a client's projects, skills, or services in an organized and visually appealing format."} image={Web} link={"https://webnamaskar.onrender.com/"} name={"Web Namaskar"}/>
       <div className="tablet:block hidden w-[1px]  bg-[#1788ae] absolute top-0 bottom-0 left-1/2 -translate-x-1/2"></div>

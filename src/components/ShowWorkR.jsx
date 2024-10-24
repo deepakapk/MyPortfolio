@@ -45,7 +45,7 @@ const ShowWorkR = ({bracket, description, image ,name, link}) => {
       <div className="tablet:block hidden w-5 h-5 rounded-full absolute border-[3px] left-1/2 -translate-x-1/2 border-[#ffe578] bg-black z-10 hover:scale-125 ease-in-out duration-150"></div>
       <a target="_blank" href={link} className="w-full flex justify-center">
         <div className="relative group tablet:hover:scale-110 ease-in-out duration-200">
-          <span className='text-xs tablet:text-base tablet:group-hover:-top-10 ease-jump duration-200 bg-[#ffe578] flex px-4 py-2 rounded w-max items-center absolute tablet:top-5 gap-1 tablet:left-1/2 tablet:-translate-x-1/2 tablet:after:content-[""] tablet:after:w-4 after:h-4 tablet:after:bg-inherit tablet:after:absolute tablet:after:left-1/2 tablet:after:-translate-x-1/2 tablet:after:rotate-45 tablet:after:-bottom-2 translate-x-1/2 right-1/2 -translate-y-8 tablet:-translate-y-0'>
+          <span className=' text-black text-xs tablet:text-base tablet:group-hover:-top-10 ease-jump duration-200 bg-[#ffe578] flex px-4 py-2 rounded w-max items-center absolute tablet:top-5 gap-1 tablet:left-1/2 tablet:-translate-x-1/2 tablet:after:content-[""] tablet:after:w-4 after:h-4 tablet:after:bg-inherit tablet:after:absolute tablet:after:left-1/2 tablet:after:-translate-x-1/2 tablet:after:rotate-45 tablet:after:-bottom-2 translate-x-1/2 right-1/2 -translate-y-8 tablet:-translate-y-0'>
             {name}
             <MdOutlineExitToApp />
           </span>
