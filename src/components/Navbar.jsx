@@ -39,7 +39,7 @@ const Navbar = () => {
           <a href="#contact" className="hover:text-white hover:scale-110 text-[#b0b2c3]">
             <FaSquarePhone />
           </a>
-          <a target="_blank" href="Use https://wa.me/+919650449458?text=urlencodedtext" className="hover:text-white hover:scale-110 text-[#b0b2c3]">
+          <a target="_blank" href="Use https://wa.me/+919650449458" className="hover:text-white hover:scale-110 text-[#b0b2c3]">
             <RiWhatsappFill />
           </a>
         </div>
