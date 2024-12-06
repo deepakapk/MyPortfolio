@@ -1,7 +1,7 @@
 import React from "react";
 import { MdOutlineExitToApp } from "react-icons/md";
 
-const ShowWorkL = ({bracket,description, image, link, name}) => {
+const ShowWorkL = ({bracket,description, image, link, name, arr}) => {
   return (
     <div className="flex flex-col tablet:flex-row gap-5 tablet:gap-[80px] items-center tablet:mt-12 mt-6 relative tablet:mb-0 mb-12">
        <div className="tablet:block hidden h-[1px] left-1/4 right-1/2 bg-[#fc815c] absolute top-1/2 "></div>
@@ -28,33 +28,14 @@ const ShowWorkL = ({bracket,description, image, link, name}) => {
         </p>
 
         <ul className="flex flex-wrap tablet:gap-2 gap-1 table:text-md text-sm mt-2">
-          <li className="border rounded-[50px] border-[#999] px-[10px] py-[5px]">
-            #react.js
-          </li>
-          <li className="border rounded-[50px] border-[#999] px-[10px] py-[5px]">
-            #express.js
-          </li>
-          <li className="border rounded-[50px] border-[#999] px-[10px] py-[5px]">
-            #node.js
-          </li>
-          <li className="border rounded-[50px] border-[#999] px-[10px] py-[5px]">
-            #redux
-          </li>
-          <li className="border rounded-[50px] border-[#999] px-[10px] py-[5px]">
-            #mongoDB
-          </li>
-          <li className="border rounded-[50px] border-[#999] px-[10px] py-[5px]">
-            #mongoose
-          </li>
-          <li className="border rounded-[50px] border-[#999] px-[10px] py-[5px]">
-            #css
-          </li>
-          <li className="border rounded-[50px] border-[#999] px-[10px] py-[5px]">
-            #javascript
-          </li>
-          <li className="border rounded-[50px] border-[#999] px-[10px] py-[5px]">
-            #figma
-          </li>
+        {
+            arr.map((item,index)=>(
+              <li key={index} className="border rounded-[50px] border-[#999] px-[10px] py-[5px]">
+                #{item}
+              </li>
+
+            ))
+          }
         </ul>
       </div>
     </div>

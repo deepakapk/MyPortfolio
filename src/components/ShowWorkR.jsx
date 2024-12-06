@@ -1,7 +1,7 @@
 import React from "react";
 import { MdOutlineExitToApp } from "react-icons/md";
 
-const ShowWorkR = ({bracket, description, image ,name, link}) => {
+const ShowWorkR = ({bracket, description, image ,name, link, arr}) => {
   return (
     <div className="flex flex-col-reverse tablet:flex-row gap-8 tablet:gap-[80px] items-center tablet:mt-12 mt-6 relative tablet:mb-0 mb-12">
       <div className="w-full">
@@ -12,33 +12,14 @@ const ShowWorkR = ({bracket, description, image ,name, link}) => {
         </p>
 
         <ul className="flex flex-wrap tablet:gap-2 gap-1 text-sm tablet:text-md mt-2">
-          <li className="border rounded-[50px] border-[#999] px-[10px] py-[5px]">
-            #react.js
-          </li>
-          <li className="border rounded-[50px] border-[#999] px-[10px] py-[5px]">
-            #express.js
-          </li>
-          <li className="border rounded-[50px] border-[#999] px-[10px] py-[5px]">
-            #node.js
-          </li>
-          <li className="border rounded-[50px] border-[#999] px-[10px] py-[5px]">
-            #swiper.js
-          </li>
-          <li className="border rounded-[50px] border-[#999] px-[10px] py-[5px]">
-            #mongoDB
-          </li>
-          <li className="border rounded-[50px] border-[#999] px-[10px] py-[5px]">
-            #mongoose
-          </li>
-          <li className="border rounded-[50px] border-[#999] px-[10px] py-[5px]">
-            #css
-          </li>
-          <li className="border rounded-[50px] border-[#999] px-[10px] py-[5px]">
-            #javascript
-          </li>
-          <li className="border rounded-[50px] border-[#999] px-[10px] py-[5px]">
-            #figma
-          </li>
+          {
+            arr.map((item,index)=>(
+              <li key={index} className="border rounded-[50px] border-[#999] px-[10px] py-[5px]">
+                #{item}
+              </li>
+
+            ))
+          }
         </ul>
       </div>
       <div className="tablet:block hidden h-[1px] right-1/4 left-1/2 bg-[#ffe578] absolute top-1/2 "></div>

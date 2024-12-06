@@ -4,6 +4,7 @@ import contact from "../assets/contact-me.svg"
 import { toast } from "react-toastify";
 
 const Contact = () => {
+
     const form = useRef(null);
     const handleSubmit = (e) =>{
         e.preventDefault();
