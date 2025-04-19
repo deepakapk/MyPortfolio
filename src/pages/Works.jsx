@@ -6,6 +6,7 @@ import Password from "../assets/Password.png"
 import Doctor from "../assets/Doctor.png"
 import job from "../assets/job.png"
 import ecommerce from "../assets/Ecommerce.png"
+import ChatApp from "../assets/ChatApp.png"
 
 const Works = () => {
   return (
@@ -20,9 +21,11 @@ const Works = () => {
 
       <ShowWorkL bracket={"Job Application Platform"} description={"A job portal web app connects job seekers with employers, enabling efficient job searches, applications, and candidate management in one platform."} image={job} link={"https://cuvette-assignment-frontend.onrender.com"} name={"Job Portal"} arr={["React.js", "MongoDb", "Node.js","Express.js", "Css", "Tailwind Css", "Javascript", "mongoose", "Redux.js"]}/>
 
-      <ShowWorkR bracket={"Portfolio of client"} description={"A client portfolio web app showcases a collection of a client's projects, skills, or services in an organized and visually appealing format."} image={Web} link={"https://webnamaskar.onrender.com/"} name={"Web Namaskar"} arr={["React.js", "MongoDb", "Node.js","Express.js", "ContextAPI", "Css", "Tailwind Css", "Javascript", "mongoose"]}/>
+      <ShowWorkR bracket={"Portfolio For a client"} description={"A client portfolio web app showcases a collection of a client's projects, skills, or services in an organized and visually appealing format."} image={Web} link={"https://webnamaskar.onrender.com/"} name={"Web Namaskar"} arr={["React.js", "MongoDb", "Node.js","Express.js", "ContextAPI", "Css", "Tailwind Css", "Javascript", "mongoose"]}/>
 
       <ShowWorkL bracket={"E-commerce"} description={"A comprehensive e-commerce web application featuring product browsing, cart management, secure checkout, and order tracking, offering a seamless shopping experience. The platform includes an admin dashboard for efficient inventory control, user account management, and analytics monitoring."} image={ecommerce} link={"https://ecommerce-frontend-nine-green.vercel.app/"} name={"E-Commerce Application"} arr={["React.js", "MongoDb", "Node.js","Express.js", "Context API", "Css", "Tailwind Css", "Javascript", "mongoose",]}/>
+
+      <ShowWorkR bracket={"A Real Time Chat App"} description={"Developed a real-time chat application using the MERN stack, featuring one-to-one messaging, image sharing, and instant notifications for an interactive user experience."} image={ChatApp} link={"https://fullstack-chat-app-61ik.onrender.com/login"} name={"Chatty"} arr={["React.js", "MongoDb", "Node.js","Express.js", "Zustand", "Css", "Tailwind Css", "Javascript", "mongoose", "Chakra Ui"]}/>
       <div className="tablet:block hidden w-[1px]  bg-[#1788ae] absolute top-0 bottom-0 left-1/2 -translate-x-1/2"></div>
     </section>
   )
