@@ -7,6 +7,7 @@ import Doctor from "../assets/Doctor.png"
 import job from "../assets/job.png"
 import ecommerce from "../assets/Ecommerce.png"
 import ChatApp from "../assets/ChatApp.png"
+import Streamify from "../assets/Streamify.png"
 
 const Works = () => {
   return (
@@ -26,6 +27,9 @@ const Works = () => {
       <ShowWorkL bracket={"E-commerce"} description={"A comprehensive e-commerce web application featuring product browsing, cart management, secure checkout, and order tracking, offering a seamless shopping experience. The platform includes an admin dashboard for efficient inventory control, user account management, and analytics monitoring."} image={ecommerce} link={"https://ecommerce-frontend-nine-green.vercel.app/"} name={"E-Commerce Application"} arr={["React.js", "MongoDb", "Node.js","Express.js", "Context API", "Css", "Tailwind Css", "Javascript", "mongoose",]}/>
 
       <ShowWorkR bracket={"A Real Time Chat App"} description={"Developed a real-time chat application using the MERN stack, featuring one-to-one messaging, image sharing, and instant notifications for an interactive user experience."} image={ChatApp} link={"https://fullstack-chat-app-61ik.onrender.com/login"} name={"Chatty"} arr={["React.js", "MongoDb", "Node.js","Express.js", "Zustand", "Css", "Tailwind Css", "Javascript", "mongoose", "Chakra Ui"]}/>
+
+      <ShowWorkL bracket={"Video Sharing Platform"} description={"This project is a video sharing platform where users can upload, edit, and delete their own videos It allows users to update their profile details and manage personal content The platform uses Cloudinary for media storage and provides a responsive, user-friendly interface."} image={Streamify} link={"https://streamify-mclj.onrender.com/"} name={"Streamify"} arr={["React.js", "MongoDb", "Node.js","Express.js", "Redux", "Styled Components", "Javascript", "mongoose"]}/>
+
       <div className="tablet:block hidden w-[1px]  bg-[#1788ae] absolute top-0 bottom-0 left-1/2 -translate-x-1/2"></div>
     </section>
   )

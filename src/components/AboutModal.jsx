@@ -7,7 +7,7 @@ import React, { useEffect, useState } from "react";
 import ReactDOM from "react-dom";
 import { IoClose } from "react-icons/io5";
 import { CgArrowLongRight } from "react-icons/cg";
-import resume from "../assets/DbResume.pdf"
+import resume from "../assets/Deepak-Baghel--Resume.pdf"
 
 const AboutModal = ({ closeModal }) => {
   return ReactDOM.createPortal(
